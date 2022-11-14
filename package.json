@@ -1,5 +1,5 @@
 {
- "name": "miku-md",
+ "name": "Mizuhara-MD",
  "description": "Multi Device Whatsapp Bot By Xeon",
  "version": "3.0.0",
  "main": "index.js",
@@ -18,7 +18,7 @@
   "bot-md",
   "multi-device"
  ],
- "author": "Fantox (FantoX001)",
+ "author": "Scotch (HellRizeN)",
  "license": "MIT",
  "dependencies": {
   "@adiwajshing/baileys": "^4.3.0",
