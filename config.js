@@ -30,7 +30,7 @@ global.websitex = "sorry i can't give"
 global.lolhuman = "KaysaS"
 
 
-global.BotLogo = fs.readFileSync("./Assets/pic1.jpg")
+global.BotLogo = fs.readFileSync(".//pic1.jpg")
 global.Thumb = fs.readFileSync("./Assets/pic9.jpg")
 global.Thumb1 = fs.readFileSync("./Assets/pic5.jpg")
 global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg")
