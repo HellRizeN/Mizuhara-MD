@@ -1,0 +1,24 @@
+{
+  "name": "Chizuru-MD",
+  "description": "A whatsApp bot made by Scotch.",
+  "repository": "https://github.com/HELLRYZEN/Chizuru-MD",
+  "logo": "https://i.ibb.co/dkYYN38/20221031-153847.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
