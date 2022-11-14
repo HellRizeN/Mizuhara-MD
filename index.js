@@ -22,7 +22,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startMiku() {
-console.log(color(figlet.textSync('Chizuru MD', {
+console.log(color(figlet.textSync('Mizuhara MD', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -30,7 +30,7 @@ console.log(color(figlet.textSync('Chizuru MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Scotch, the main developer of this bot.\n\nThanks for using : Chizuru Bot','aqua'))
+console.log(color('\nHello, I am Scotch, the main developer of this bot.\n\nThanks for using : Mizuhara Bot','aqua'))
 console.log(color('\nYou can follow me on Instagram : say.scotch','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
@@ -64,7 +64,7 @@ if (mek.key && mek.key.remoteJid === 'status@broadcast') return
 if (!Miku.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
 if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
 m = smsg(Miku, mek, store)
-require("./Muzuhara")(Miku, m, chatUpdate, store)
+require("./MizuCore")(Miku, m, chatUpdate, store)
 } catch (err) {
 console.log(err)
 }
@@ -99,20 +99,20 @@ Miku.ev.on('groups.update', async pea => {
         }
         let wm_fatih = { url : ppgc }
         if (pea[0].announce == true) {
-        //Miku.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `Miku Bot`, wm_fatih, [])
+        //Miku.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `Mizu Bot`, wm_fatih, [])
 
         Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Closed!* Only *Admins* can send Messages!'})
         } else if(pea[0].announce == false) {
-       // Miku.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `Miku Bot`, wm_fatih, [])
+       // Miku.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `Mizu Bot`, wm_fatih, [])
        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Opened!* Now *Everyone* can send Messages!'})
         } else if (pea[0].restrict == true) {
-        //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
+        //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `Mizu Bot`, wm_fatih, [])
         Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !'})
         } else if (pea[0].restrict == false) {
-        //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
+        //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `Mizu Bot`, wm_fatih, [])
         Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !'})
         } else {
-        //Miku.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `Chizuru MD`, wm_fatih, [])
+        //Miku.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `Mizuhara MD`, wm_fatih, [])
         mikutextddfq =`Group Subject has been updated To:\n\n*${pea[0].subject}*`
         Miku.sendMessage(pea[0].id, { image: wm_fatih, caption: mikutextddfq})
       }
@@ -155,7 +155,7 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 mikutext = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *Chizuru Mizuhara*, Welcome to ${metadata.subject}.
+Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
