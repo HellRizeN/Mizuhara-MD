@@ -3,7 +3,7 @@ const chalk = require("chalk")
 
 global.available = true
 global.autoReadGc = true
-global.autoReadAll = false
+global.autoReadAll = true
 global.antitags = true
 
 
@@ -14,7 +14,7 @@ global.BotName = "Chizuru Mizuhara"
 global.packname = "Ox.Itachi < 3"
 global.author = "Say.Scotch"
 global.OwnerName = "Scotch"
-global.BotSourceCode = "Sorry I can't give"
+global.BotSourceCode = "Oops Sorry I can't give Error 404"
 global.SupportGroupLink = "https://chat.whatsapp.com/JBDzYnTIrawLBptciuMiFA"
 global.sessionName = "session"
 
@@ -30,10 +30,10 @@ global.websitex = "sorry i can't give"
 global.lolhuman = "KaysaS"
 
 
-global.BotLogo = fs.readFileSync(".//pic1.jpg")
-global.Thumb = fs.readFileSync("./Assets/pic9.jpg")
-global.Thumb1 = fs.readFileSync("./Assets/pic5.jpg")
-global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg")
+global.BotLogo = fs.readFileSync("./Chizuru Mizuhara/pic1.jpg")
+global.Thumb = fs.readFileSync("./Chizuru Mizuhara/pic9.jpg")
+global.Thumb1 = fs.readFileSync("./Chizuru Mizuhara/pic5.jpg")
+global.ErrorPic = fs.readFileSync("./Chizuru Mizuhara/pic7.jpg")
 
 
 global.ntilinkytvid = []
