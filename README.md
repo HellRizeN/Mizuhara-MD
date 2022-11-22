@@ -12,7 +12,7 @@
   <a href="https://github.com/HellRizeN/Mizuhara-MD/fork">
     <img src="https://img.shields.io/github/forks/HELLRYZEN/Mizuhara-MD?label=Fork&style=social">
         
-  <a href="https://github.com/HellRizeN/Chizuru-MD/stargazers">
+  <a href="https://github.com/HellRizeN/Mizuhara-MD/stargazers">
     <img src="https://img.shields.io/github/stars/HellRizeN/Mizuhara-MD?style=social">
   </a>
 
