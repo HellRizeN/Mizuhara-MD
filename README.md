@@ -27,6 +27,16 @@
 
  <p align="center">   
 <a href="https://instagram.com/say.scotch" target="_blank"> <img src="https://img.shields.io/badge/-Instagram-%23000000?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"width="130"/>
+
+<p align="center">
+
+
+
+</p>
+
+## DEPLOY ON RAILWAY 
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new)
  
 ### ✧✧ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ꜱᴛɪʟʟ ᴜɴᴅᴇʀ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ꜱᴏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴄᴏᴅᴇ/ᴍᴏᴅɪғʏ ɪᴛ, ᴘʟꜱ ᴄʜᴇᴄᴋ ᴛʜɪꜱ ᴍᴀɪɴ ʀᴇᴘᴏ ᴏɴᴄᴇ ɪɴ 2 ᴅᴀʏꜱ ʙᴇᴄᴀᴜꜱᴇ ɪ ᴀᴍ ᴄᴏɴᴛɪɴᴜᴏᴜꜱʟʏ ᴅᴇʙᴜɢɢɪɴɢ ɪᴛ ᴀɴᴅ ᴍᴀᴋɪɴɢ ᴍᴀᴊᴏʀ ᴄʜᴀɴɢᴇꜱ ɪɴ ɪᴛ.
 </br>
