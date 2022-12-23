@@ -36,7 +36,7 @@
 
 ## DEPLOY ON RAILWAY 
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/IYkkDN)
  
 ### ✧✧ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ꜱᴛɪʟʟ ᴜɴᴅᴇʀ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ꜱᴏ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴄᴏᴅᴇ/ᴍᴏᴅɪғʏ ɪᴛ, ᴘʟꜱ ᴄʜᴇᴄᴋ ᴛʜɪꜱ ᴍᴀɪɴ ʀᴇᴘᴏ ᴏɴᴄᴇ ɪɴ 2 ᴅᴀʏꜱ ʙᴇᴄᴀᴜꜱᴇ ɪ ᴀᴍ ᴄᴏɴᴛɪɴᴜᴏᴜꜱʟʏ ᴅᴇʙᴜɢɢɪɴɢ ɪᴛ ᴀɴᴅ ᴍᴀᴋɪɴɢ ᴍᴀᴊᴏʀ ᴄʜᴀɴɢᴇꜱ ɪɴ ɪᴛ.
 </br>
