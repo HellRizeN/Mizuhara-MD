@@ -2409,7 +2409,7 @@ case 'happymod': {
  })
  }
  break
-
+/*
  case 'yts': case 'ytsearch': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
@@ -2423,7 +2423,7 @@ case 'happymod': {
  }
  Miku.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
  }
- break
+ break */
 
  case 'setname': case 'setsubject': {
     if (isBan) return reply(mess.banned)	 			
