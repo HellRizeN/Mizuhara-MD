@@ -19,7 +19,7 @@ global.SupportGroupLink = "https://chat.whatsapp.com/JBDzYnTIrawLBptciuMiFA"
 global.sessionName = "session"
 
 // Prefix //
-// If you want to change the prefix, change it and also change all switch's button id from Core.js  otherwise buttons will not work //
+// If you want to change the prefix, change it and also change all switch's button id from MizuCore.js  otherwise buttons will not work //
 global.prefa = ['-']
 
 global.location = "Mumbai, India"
