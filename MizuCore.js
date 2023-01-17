@@ -1,4 +1,4 @@
-//Use latest fork to get latest features
+//Use latest fork to get latest features by Scotch V.2.0
 
 process.on('uncaughtException', console.error)
 require("./config")
@@ -164,7 +164,7 @@ var budy = (typeof m.text == 'string' ? m.text : '')
 const prefix = global.prefa
 const isCmd = body.startsWith(prefix)
 const notCmd = body.startsWith('')
-const command = isCmd ? body.slice(1).trim().split(' ')[0].toLowerCase() : ''
+const command = isCmd ? body.slice(1).trim().split('')[0].toLowerCase() : ''
 const args = body.trim().split(/ +/).slice(1)
 const pushname = m.pushName || "No Name"
 
@@ -2409,7 +2409,7 @@ case 'happymod': {
  })
  }
  break
-
+/*
  case 'yts': case 'ytsearch': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
@@ -2423,7 +2423,7 @@ case 'happymod': {
  }
  Miku.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
  }
- break
+ break */
 
  case 'setname': case 'setsubject': {
     if (isBan) return reply(mess.banned)	 			
@@ -5031,7 +5031,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     {buttonId: `${prefix}owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}
     ]
                 let buttonMessage = {
-                    video:fs.readFileSync('./Mizuhara/Chizuru.mp4'),gifPlayback:true,
+                    video:fs.readFileSync('./Mizuhara/nelocry.mp4'),gifPlayback:true,
                     caption: helpmenu,
                     footer: `${BotName}`,
                     buttons: buttonshelpm,
@@ -5069,7 +5069,7 @@ break
 
 
 
-case 'Chizuru': 'Mizuhara': 'Bot':
+case 'Mizuhara':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
