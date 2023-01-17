@@ -2409,7 +2409,7 @@ case 'happymod': {
  })
  }
  break
-/*
+
  case 'yts': case 'ytsearch': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
@@ -2423,7 +2423,7 @@ case 'happymod': {
  }
  Miku.sendMessage(m.chat, { image: { url: search.all[0].thumbnail },  caption: teks }, { quoted: m })
  }
- break */
+ break
 
  case 'setname': case 'setsubject': {
     if (isBan) return reply(mess.banned)	 			
@@ -5031,7 +5031,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     {buttonId: `${prefix}owner`, buttonText: {displayText: 'Bot Owner'}, type: 1}
     ]
                 let buttonMessage = {
-                    video:fs.readFileSync('./Mizuhara/nelocry.mp4'),gifPlayback:true,
+                    video:fs.readFileSync('./Mizuhara/Chizuru.mp4'),gifPlayback:true,
                     caption: helpmenu,
                     footer: `${BotName}`,
                     buttons: buttonshelpm,
@@ -5069,7 +5069,7 @@ break
 
 
 
-case 'Mizuhara':
+case 'Chizuru': 'Mizuhara': 'Bot':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
