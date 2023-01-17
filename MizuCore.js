@@ -160,11 +160,11 @@ const janghar = (thisDaye)
 module.exports = Miku = async (Miku, m, chatUpdate, store) => {
 try {
 var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
-var budy = (typeof m.text == 'string' ? m.text : '')
+var budy = (typeof m.text == 'string' ? m.text : '-')
 const prefix = global.prefa
 const isCmd = body.startsWith(prefix)
-const notCmd = body.startsWith('')
-const command = isCmd ? body.slice(1).trim().split('')[0].toLowerCase() : ''
+const notCmd = body.startsWith('-')
+const command = isCmd ? body.slice(1).trim().split('-')[0].toLowerCase() : ''
 const args = body.trim().split(/ +/).slice(1)
 const pushname = m.pushName || "No Name"
 
